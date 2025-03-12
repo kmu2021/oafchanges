@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+
+<JboProject
+   Name="MroPOManager"
+   SeparateXMLFiles="true"
+   PackageName="" >
+  
+   <Substitutes>
+	 <Substitute OldName ="oracle.apps.pos.changeorder.server.PosRevisionHistoryVO" NewName ="mroi.oracle.apps.pos.changeorder.server.MroPosRevisionHistoryVO" /> 
+   </Substitutes>
+</JboProject>
